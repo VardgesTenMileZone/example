@@ -1,0 +1,48 @@
+.notification-image{
+    width: 70px;
+    height: 70px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}
+
+.required-remainder{
+  color: #f5222d;
+  margin-bottom: 7px;
+}
+
+.edit-notification-item{
+  margin-bottom: 10px !important;
+}
+
+.edit-photo{
+  width: 100px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.edit-notification-item {
+  label{
+    margin-bottom: 0;
+
+  }
+  .ant-form-item-label{
+    line-height: 25px;
+  }
+}
+
+.edit-notification-photo span{
+  padding: 0 !important;
+}
+
+.notification-url{
+  input{
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 4px !important;
+  }
+}

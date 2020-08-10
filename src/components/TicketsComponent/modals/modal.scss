@@ -1,0 +1,462 @@
+.cancellation-modal-container.modal-dialog
+  *
+  > .busline-service-contents-item-container {
+  padding: 1rem !important;
+}
+
+.cancellation-modal-container.modal-dialog
+  *
+  > .busline-service-contents-item-container
+  > p.busline-service-text {
+  font-size: 14px !important;
+}
+.cancellation-modal-container.modal-dialog
+  *
+  > .busline-service-contents-item-container
+  *
+  > aside.busline-service-text {
+  font-size: 13px !important;
+}
+
+.price-title-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 0 0 20px !important;
+}
+
+.price-title-text {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin: 0 20px 0 0 !important;
+  color: transparent !important;
+}
+
+.driver-tip-input{
+  position: relative;
+}
+.driver-tip-input .driver-tip-control:disabled{
+  background-color: #ffffff !important;
+}
+
+.driver-tip-input:before{
+  content: "\f155";
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  color: #aaaaaa;
+
+}
+.driver-tip-input input{
+  padding-left: 25px;
+}
+.driver-tip-input input.error{
+  border-color: red;
+}
+
+
+.price-total-member-container {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.price-total-guest-button {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  /* color: #fff !important; */
+  color: black!important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  text-align: center !important;
+  background: white !important;
+  border: 2px solid black !important;
+}
+
+.price-total-guest-button.pay-btn{
+  background: #f58153 !important;
+  border: 2px solid #f58153 !important;
+  color: #fff !important;
+}
+
+.price-total-member-button {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: white !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  background: #f58153 !important;
+  border: 0 !important;
+  text-align: center !important;
+}
+
+.price-prompt-text {
+  width: 100% !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin: 6px 0 !important;
+  text-align: center !important;
+  color: #f58153 !important;
+}
+
+.price-item-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  border-bottom: 2px solid #eeeeee !important;
+  padding: 30px !important;
+}
+
+.price-item-container.border-color {
+  border-bottom-color: transparent !important;
+}
+
+.price-total-title-container {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 0 0 16px !important;
+}
+
+.price-total-title-text {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.price-total-price-text {
+  font-size: 22px !important;
+  font-weight: bold !important;
+}
+
+.price-more-details-button {
+  width: 100% !important;
+  box-shadow: none !important;
+  text-align: right !important;
+  margin: 15px 0 0 !important;
+  color: #999999 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  background: transparent !important;
+  padding: 0px !important;
+}
+
+.price-container {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0 0 16px !important;
+}
+
+.price-card-title-container {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.price-name-text {
+  font-size: 15px !important;
+}
+
+.price-card-text {
+  font-size: 15px !important;
+}
+
+.price-name-bold-text {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin: 0 0 3px !important;
+}
+
+.price-card-bold-text {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin: 0 0 3px !important;
+}
+
+.price-member-text {
+  font-size: 15px !important;
+  color: #aaaaaa !important;
+}
+
+.price-discount-text {
+  font-size: 15px !important;
+  color: #aaaaaa !important;
+}
+
+.price-card-container {
+  display: flex !important;
+  flex-direction: column !important;
+  background: transparent !important;
+  margin: 0 0 30px 40px !important;
+}
+.tip-note{
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.price-stripe-modal-container {
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 1060;
+}
+
+.price-stripe-modal {
+  background: white !important;
+  margin: auto !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.price-contents-container {
+  display: flex !important;
+  flex-direction: column !important;
+  background: white !important;
+  border-radius: 3px !important;
+  border: 2px solid black !important;
+}
+
+@media (max-width: 1500px) {
+  .price-card-container {
+    margin: 0 0 30px 0 !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .price-card-container {
+    margin: 0 0 30px 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .price-title-text {
+    color: black !important;
+  }
+
+  .price-item-container {
+    padding: 20px 15px !important;
+  }
+
+  .price-more-details-button {
+    display: 'none',
+  }
+
+}
+
+
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 25px;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.change-section-header{
+    padding:16px 16px 0 16px;
+    margin-bottom: 0;
+}
+
+.cancellation-modal-container.modal-dialog {
+  max-width: 800px;
+}
+
+.cancellation-modal-container.modal-dialog .radio-card {
+  padding: 0 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.cancellation-modal-container.modal-dialog .radio-card .radio{
+  margin: 20px 0 !important;
+  cursor: pointer;
+}
+
+.cancellation-modal-container.modal-dialog .radio-card .radio i{
+  font-size: 30px !important;
+  color: #f58052 !important;
+  margin-right: 11px !important;
+  vertical-align: middle !important;
+}
+  
+.edit-buttons button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 16px;
+    border: 2px solid #F0540F;
+    border-radius: 4px;
+    background: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: #F0540F;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.edit-buttons .cencel{
+    margin-right: 16px;
+}
+  
+.edit-buttons .cencel:hover{
+    background: #F0540F;
+    color: #ffffff;
+}
+  
+.edit-buttons .modify{
+    background: #F0540F;
+    color: #ffffff;
+}
+  
+.edit-buttons .modify:hover{
+    background: #ffffff;
+    color: #F0540F;
+}
+
+.change-date-modal-container .modal-body{
+    padding: 30px !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer{
+  box-shadow: none !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer .calendar-button{
+  border: 2px solid lightGray !important;
+  border-radius: 0 !important;
+  border-left: 2px solid lightGray !important;
+  height: 56px;
+  padding: 15px 20px 8px !important;
+  margin-bottom: 16px;
+}
+.change-date-modal-container .modal-body .filter-modal-title-container .filter-modal-sub-title{
+  font-size: 18px !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer .calendar-button .calendar-selected-text{
+  color: #000 !important;
+}
+.change-date-modal-container .modal-body .select-box-card{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  flex: 1 1 0% !important;
+  color: black !important;
+  background: white !important;
+  border: 2px solid lightGray !important;
+  margin: 0 0 16px !important;
+  width: 100%;
+  height: 56px;
+  padding: 0px 14px;
+}
+.change-date-modal-container .modal-body .select-box-card select{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.filter-modal-title-container .filter-modal-sub-title{
+  margin-bottom: 0;
+}
+
+.redund-options{
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .class-my-tickets-main-container {
+    padding: 20px 15px !important;
+  }
+  .cancellation-modal-container.modal-dialog
+    *
+    > .busline-service-contents-item-container {
+    padding: 0px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .class-my-tickets-contents-container {
+    flex-direction: column !important;
+  }
+  .class-my-tickets-menu-container {
+    margin: 0 0 30px !important;
+    width: 100% !important;
+  }
+  .ass-my-tickets-ticket-container {
+    margin: 0 !important;
+  }
+}

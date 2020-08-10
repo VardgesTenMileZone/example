@@ -1,0 +1,33 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+    - echo install started on `date`
+    - npm install
+    - sed -i 's/REPLACE_STAGE_NAME/'"$STAGE_NAME"'/g' src/environment/index.js
+    - echo install completed on `date`
+  pre_build:
+    commands:
+    - echo pre_build started on `date`
+    - mkdir build
+    - echo pre_build completed on `date`
+  build:
+    commands:
+    - echo build started on `date`
+    - npm run build
+    - aws s3 sync $CODEBUILD_SRC_DIR/build s3://$BUCKET
+    - echo build completed on `date`
+  post_build:
+    commands:
+    - echo post_build started on `date`
+    - echo pwd_post_build `pwd`
+    - cd build
+    - echo pwd_post_build_in_build `pwd`
+    - echo post_build completed on `date`
+artifacts:
+  files:
+  - '**/*'
+  base-directory: build

@@ -1,0 +1,123 @@
+.btn-date-picker {
+    border-radius: 0 !important;
+    width: 100% !important;
+    background: white !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 24px 20px 8px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    border-radius: 0 !important;
+    border-right: 1px solid black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+  }
+  .mobile-date-dicker {
+    display: none !important;
+  }
+  
+  .btn-date-picker:hover {
+    transition: 0.3s !important;
+    border-right: 1px solid black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    background-color: white !important;
+  }
+  
+  .btn-date-picker:active {
+    transition: 0.3s !important;
+    border-right: 1px solid black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    background-color: white !important;
+  }
+  
+  .react-datepicker__day--selected,
+  .react-datepicker__day--in-selecting-range,
+  .react-datepicker__day--in-range {
+    border-radius: 0.3rem !important;
+    background-color: #f58153 !important;
+    color: #fff !important;
+  }
+  
+  .calendar-button {
+    background: white !important;
+    box-shadow: none !important;
+    border-right: 1px solid black !important;
+  }
+  
+  .calendar-text {
+    color: lightGray !important;
+    font-size: 16px !important;
+    padding: 0 20px 0 0 !important;
+  }
+  
+  .calendar-selected-text {
+    color: darkGray !important;
+    font-size: 16px !important;
+    padding: 0 20px 0 0 !important;
+  }
+  
+  .calendar-icon {
+    color: #f58153 !important;
+    font-size: 18px !important;
+  }
+  
+  .calendar-modal-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 40px 20px 20px !important;
+  }
+  
+  .calendar-clear-button-cotnainer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 10;
+  }
+  
+  .calendar-clear-button {
+    font-size: 15px !important;
+    border-radius: 25px !important;
+    position: relative;
+    left: -50%;
+  }
+  .Cal__Today__chevron {
+    margin-left: 30px !important;
+  }
+  
+  @media (max-width: 1000px) {
+    .btn-date-picker {
+      border-radius: 6px !important;
+      border: 1px solid black !important;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .mobile-date-dicker {
+      display: unset !important;
+    }
+    /* .Cal__Today__chevron {
+      margin-left: 30px !important;
+    } */
+    .btn-date-picker {
+      border-radius: 6px !important;
+      border: 1px solid black !important;
+    }
+    .calendar-modal-container {
+      display: none !important;
+    }
+    .calendar-modal-container {
+      padding: 10px 10px 10px 10px !important;
+    }
+    .react-datepicker {
+      font-size: 1rem !important;
+    }
+    .btn-date-picker .fa-calendar-o {
+      display: none;
+    }
+  }
+  

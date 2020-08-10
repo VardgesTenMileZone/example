@@ -1,0 +1,404 @@
+.stripeContainer form label {
+  display: block !important;
+  color: #6b7c93 !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.025em !important;
+  height: 50px !important;
+  border: 1px solid rgb(178, 178, 179) !important;
+  padding: 6px !important;
+  border-radius: 5px !important;
+}
+
+.cvsContainer {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.cvcLabel {
+  width: 50% !important;
+}
+
+.stripe-check-form-container {
+  padding: 30px !important;
+  background: #F1F4F4 !important;
+  border-top: 1px solid #AEB0B0 !important;
+  border-radius: 5px !important;
+}
+
+.stripe-check-form-spinner {
+  height: 30px !important;
+  margin-top: 15px !important;
+}
+
+.MuiAppBar-colorPrimary{
+  background-color: rgba(240, 82, 15, 0.301)!important;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.MuiTab-wrapper{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit{
+  width: calc(100% / 3);
+  outline: none!important;
+}
+
+.MuiPaper-root.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary{
+  margin-bottom: 20px;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected{
+  background-color: #F0540F;
+  border-radius: 10px;
+}
+
+.MuiBox-root{
+  padding: 0!important;
+}
+
+.MuiPaper-root{
+  box-shadow: none!important;
+}
+
+.MuiTabs-indicator{
+  display: none!important;
+}
+
+.upcoming-rides{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(0, 0, 0, 0.0588669);
+  border-radius: 7px;
+  padding: 10px 14px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.upcoming-rides .rides-heading{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.upcoming-rides .rides-heading h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #000000;
+}
+
+.upcoming-rides .rides-heading h3{
+  font-family: Dirty Ego;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 27px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #000000;
+}
+
+.upcoming-rides .from-to-box{
+  margin: 6px 0 0 0!important;
+}
+
+
+.upcoming-rides .from-to-box .arrows p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 23px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.upcoming-rides .from-to-box .arrows .passangers{
+  margin-bottom: 0px;
+}
+.upcoming-rides .from-to-box .city-name .payment-method{
+  margin-top: 23px;
+}
+
+.modify-ticket-options{
+  margin-top: 20px;
+}
+
+.upcoming-rides .from-to-box .city-name p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 0 !important;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.upcoming-rides .from-to-box .city-name span{
+  font-family: Roboto;
+  font-style: normal;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  display: block;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.65;
+}
+
+.upcoming-rides .from-to-box .from-city p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 15px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  color: #000000;
+}
+
+.upcoming-rides .from-to-box .from-city span{
+  font-family: Roboto;
+  font-style: normal;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.28;
+}
+
+.upcoming-rides .trip-price{
+  display: flex;
+  align-items: center;
+}
+
+.upcoming-rides .trip-price h3{
+  white-space: nowrap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  width: 100%;
+  color: #000000;
+}
+
+.upcoming-rides .ride-edit{
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.upcoming-rides .ride-edit a{
+  font-family: Roboto;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #3870C0;
+  text-decoration: none!important;
+}
+
+.upcoming-rides .ride-edit .edit-buttons{
+  position: absolute;
+  right: 0;
+}
+
+.edit-buttons button{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 16px;
+  border: 2px solid #F0540F;
+  border-radius: 4px;
+  background: none;
+  box-sizing: border-box;
+  text-align: center;
+  color: #F0540F;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.swal-button.swal-button--confirm{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 16px;
+  border: 2px solid #F0540F;
+  border-radius: 4px;
+  background: none;
+  box-sizing: border-box;
+  text-align: center;
+  color: #F0540F;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.MuiTab-root {
+  max-width: 100%!important;
+}
+
+.swal-button.swal-button--confirm:hover{
+  background: #F0540F;
+  color: #ffffff;
+}
+
+.edit-buttons .cencel{
+  margin-right: 16px;
+}
+
+.edit-buttons .cencel:hover{
+  background: #F0540F;
+  color: #ffffff;
+}
+
+.edit-buttons .modify{
+  background: #F0540F;
+  color: #ffffff;
+}
+
+.edit-buttons .modify:hover{
+  background: #ffffff;
+  color: #F0540F;
+}
+
+.change-section-header{
+  padding: 16px 16px 0 16px;
+  margin-bottom: 0;
+}
+
+@media(max-width: 1200px){
+  .upcoming-rides .ride-edit{
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .upcoming-rides .from-to-box .from-city p{
+    font-size: 13px;
+  }
+  .upcoming-rides .from-to-box .from-city.d-flex{
+    display: block!important;
+  }
+  .upcoming-rides .from-to-box .from-city.m-0{
+    margin: 3px 0 0 5px!important;
+  }
+}
+
+@media(max-width: 992px){
+  .upcoming-rides .from-to-box .from-city p{
+    font-size: 17px;
+  }
+  .upcoming-rides .from-to-box .from-bar.align-items-center{
+    align-items: normal!important;
+  }
+
+}
+
+@media (max-width: 600px){
+  .MuiTab-wrapper{
+    font-size: 10px;
+  }
+  .upcoming-rides .from-to-box .from-bar .arrow-image{
+    margin-top: 20px!important;
+  }
+}
+
+@media(max-width: 350px){
+  .upcoming-rides .ride-edit .edit-buttons button{
+    font-size: 8px;
+  }
+}
+
+.hide-payment-conntent{display: none;}
+
+.stripe-check-form-pay-button {
+  margin-top: 15px !important;
+  width: 100% !important;
+  padding: 7px !important;
+  background: #0095ff !important;
+  border-radius: 5px !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+.script-img {
+  display: none;
+  width: 70px !important;
+  background: white !important;
+  border-radius: 50% !important;
+  border: 3px solid white !important;
+  position: absolute !important;
+  top: 40px !important;
+  left: 123px !important;
+}
+
+.script-img-second {
+  text-align: center !important;
+  margin-top: 17px !important;
+  margin-left: 45px !important;
+}
+
+.script-p {
+  text-align: center !important;
+  color: #B2B2B3 !important;
+  margin-bottom: 0 !important;
+}
+
+.script-content {
+  border-radius: 5px !important;
+  background: #F1F4F4 !important;
+  min-width: 300px !important;
+}
+
+.script-content-card {
+  position: relative !important;
+  padding: 15px !important;
+  background: #E4E4E4 !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+}
+
+.script-puy {
+  position: absolute !important;
+  right: 10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  text-align: center !important;
+  border-radius: 50% !important;
+  background: #AEB0B0 !important;
+  font-weight: bold !important;
+  color: white !important;
+  top: 10px !important;
+  cursor: pointer !important;
+}

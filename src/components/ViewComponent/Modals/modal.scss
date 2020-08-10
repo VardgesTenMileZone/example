@@ -1,0 +1,35 @@
+.edit-buttons button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 16px;
+    border: 2px solid #F0540F;
+    border-radius: 4px;
+    background: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: #F0540F;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.edit-buttons .cencel{
+    margin-right: 16px;
+}
+  
+.edit-buttons .cencel:hover{
+    background: #F0540F;
+    color: #ffffff;
+}
+  
+.edit-buttons .modify{
+    background: #F0540F;
+    color: #ffffff;
+}
+  
+.edit-buttons .modify:hover{
+    background: #ffffff;
+    color: #F0540F;
+}

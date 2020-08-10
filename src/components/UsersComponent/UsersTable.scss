@@ -1,0 +1,30 @@
+
+.credits{
+  input,.ant-select{
+    width: 140px;
+  }
+}
+.modal-body #my-form{
+  display: flex;
+  justify-content: space-between;
+}
+.agent-type {
+  .ant-select{
+    width: 140px;
+  }
+}
+.modify-modal{
+  .ant-modal-body{
+    display: flex;
+    justify-content: space-between;
+    input{
+      border: 1px solid #d9d9d9 !important;
+      border-radius: 4px !important;
+    }
+  }
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

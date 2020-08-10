@@ -1,0 +1,77 @@
+.change-date-modal-container{
+
+}
+
+.change-date-modal-container .modal-body{
+    padding: 30px !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer{
+  box-shadow: none !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer .calendar-button{
+  border: 2px solid lightGray !important;
+  border-radius: 0 !important;
+  border-left: 2px solid lightGray !important;
+  height: 56px;
+  padding: 15px 20px 8px !important;
+  margin-bottom: 16px;
+}
+.change-date-modal-container .modal-body .filter-modal-title-container .filter-modal-sub-title{
+  font-size: 18px !important;
+}
+.change-date-modal-container .modal-body .from-date-conatainer .calendar-button .calendar-selected-text{
+  color: #000 !important;
+}
+.change-date-modal-container .modal-body .select-box-card{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  flex: 1 1 0% !important;
+  color: black !important;
+  background: white !important;
+  border: 2px solid lightGray !important;
+  margin: 0 0 16px !important;
+  width: 100%;
+  height: 56px;
+  padding: 0px 14px;
+}
+.change-date-modal-container .modal-body .select-box-card select{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.filter-modal-title-container .filter-modal-sub-title{
+  margin-bottom: 0;
+}
+
+.cancellation-modal-container table {
+  width: 100%;
+}
+
+.cancellation-modal-container .change-ticket-with-payment .filter-modal-sub-title, .cancellation-modal-container .change-ticket-for-free .filter-modal-sub-title{
+  margin-bottom: 30px;
+  font-size: 22px !important;
+  text-align: center;
+}
+
+.cancellation-modal-container .change-ticket-with-payment .price-table{
+  width: 270px;
+  margin-top: 40px;
+}
+
+.cancellation-modal-container .change-ticket-with-payment .price-table table{
+  width: 100%;
+}
+
+.cancellation-modal-container table tbody tr{
+  border-bottom: 1px solid #ccc;
+}
+.cancellation-modal-container table tbody tr td:first-child{
+  font-weight: bold;
+}
+.cancellation-modal-container table tbody td{
+  font-size: 14px;
+  padding: 10px;
+}

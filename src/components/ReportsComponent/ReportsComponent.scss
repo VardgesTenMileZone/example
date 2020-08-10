@@ -1,0 +1,20 @@
+.reports-container{
+    .reports-container-content{
+        display: flex;
+        align-items: center;
+    }
+    .reports-button{
+        display: flex;
+        align-items: center;
+        &.latest{
+            margin-left: 10px;
+        }
+    }
+    .download-reports{
+        display: flex;
+        align-items: center;
+        a{
+            margin-left: 20px;
+        }
+    }
+}

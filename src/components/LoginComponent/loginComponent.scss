@@ -1,0 +1,20 @@
+.login-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    .login-container-heading{
+        text-align: center;
+        font-size: 35px;
+    }
+    .login-form-container{
+        min-width: 300px;
+        .ant-btn.login-form-button.ant-btn-primary{
+            display: block;
+            width: 100%;
+        }
+        .login-form-forgot{
+            float: right;
+        }
+    }
+}

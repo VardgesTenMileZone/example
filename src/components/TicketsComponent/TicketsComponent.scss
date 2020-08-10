@@ -1,0 +1,18 @@
+.tickets-container{
+    overflow-y: scroll;
+    height: calc(100vh - 131px);
+    h2{
+        font-size: 24px;
+    }
+    .ticket-search-btn{
+        max-width: 100px;
+        min-width: 79px;
+        margin: auto;
+        display: block;
+        @media(max-width: 768px){
+            min-width: auto;
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+}
